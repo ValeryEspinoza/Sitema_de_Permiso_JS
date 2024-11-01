@@ -1,0 +1,107 @@
+{
+  "Users": [
+    {
+      "id": "8b75",
+      "Nombres": "Valery Isabel",
+      "Apellidos": "Espinoza Quiros",
+      "Correo": "vespinoza@fwdcostarica.com",
+      "Contraseña": "1234",
+      "Cedula": "1214324",
+      "Roll": "Administrador"
+    },
+    {
+      "id": "232d",
+      "Nombres": "Keyla",
+      "Apellidos": "Espinoza Quiros",
+      "Correo": "k@gmail.com",
+      "Contraseña": "4321",
+      "Cedula": "34534654",
+      "Roll": "Colaborador"
+    },
+    {
+      "id": "f48d",
+      "Nombres": "Anthony ",
+      "Apellidos": "Hernandez",
+      "Correo": "a@gmail.com",
+      "Contraseña": "2345",
+      "Cedula": "34645767",
+      "Roll": "Colaborador"
+    }
+  ],
+  "Recuest": [
+    {
+      "id": "da23",
+      "nombre": "Keyla Espinoza Quiros",
+      "cedula": "34534654",
+      "sede": "Puntarenas",
+      "laptopCode": "3253425",
+      "fechaSalida": "2024-08-28T13:10",
+      "fechaRegreso": "2024-08-30T13:10",
+      "estatus": "Pendiente"
+    },
+    {
+      "id": "5754",
+      "nombre": "Katherine Lopez",
+      "cedula": "67584",
+      "sede": "Puntarenas",
+      "laptopCode": "098079675",
+      "fechaSalida": "2024-08-28T13:10",
+      "fechaRegreso": "2024-08-30T13:10",
+      "estatus": "Pendiente"
+    }
+  ],
+  "History": [
+    {
+      "id": "ff2f",
+      "estatus": "Declinado",
+      "nombre": "Yorleny Espinoza",
+      "cedula": "34645764",
+      "sede": "Santa Ana",
+      "laptopCode": "3253425",
+      "fechaSalida": "2024-08-28T13:10",
+      "fechaRegreso": "2024-08-30T13:10"
+    },
+    {
+      "id": "0ea2",
+      "estatus": "Aceptado",
+      "nombre": "Maria Alfaro",
+      "cedula": "67584",
+      "sede": "Santa Ana",
+      "laptopCode": "3253425",
+      "fechaSalida": "2024-08-28T13:10",
+      "fechaRegreso": "2024-08-30T13:10"
+    },
+    {
+      "id": "9509",
+      "estatus": "Declinado",
+      "nombre": "Anthony  Hernandez",
+      "cedula": "34645767",
+      "sede": "Puntarenas",
+      "laptopCode": "cd02",
+      "fechaSalida": "2024-08-28T13:36",
+      "fechaRegreso": "2024-08-31T13:36"
+    }
+  ],
+  "AceptedRecuest": [
+    {
+      "id": "bf7d",
+      "estatus": "Aceptado",
+      "nombre": "Cesar Quiros Quiros",
+      "cedula": "34534654",
+      "sede": "Nosara",
+      "laptopCode": "3253425",
+      "fechaSalida": "2024-08-28T13:10",
+      "fechaRegreso": "2024-08-30T13:10"
+    },
+    {
+      "id": "0ea2",
+      "estatus": "Aceptado",
+      "nombre": "Maria Alfaro",
+      "cedula": "67584",
+      "sede": "Santa Ana",
+      "laptopCode": "3253425",
+      "fechaSalida": "2024-08-28T13:10",
+      "fechaRegreso": "2024-08-30T13:10"
+    }
+  ]
+}

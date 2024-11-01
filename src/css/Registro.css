@@ -1,0 +1,92 @@
+
+
+
+
+
+
+body{
+    background-color: #494b4a gris;
+}
+
+.color{
+    color: white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Registrar{
+    width: 400px;
+    background: #696969;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #FFDAB9;
+}
+
+.registrar h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.control{
+    width: 100%;
+    background: #D3D3D3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #FFEFD5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.control:hover{
+    background-color: white;
+    border: 1px solid red;
+}
+
+.Registrar p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.Registrar a {
+    color: white;
+    text-decoration: none;
+}
+
+.Registrar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.Registrar .boton {
+    width: 100%;
+    background: #FFEFD5;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+@media(max-width: 767px){
+   
+
+
+}
+  
+@media(min-width: 991px){
+    
+}

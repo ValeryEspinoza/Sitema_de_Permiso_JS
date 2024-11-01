@@ -1,0 +1,239 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../img/ver-cosechado-mujer-rellenar-formulario-solicitud_1262-2110.avif);
+    background-size: 100% ;
+    
+}   
+
+
+.contenedorNav{
+    display: grid;
+    grid-template-columns:30% 50% 20%;
+    background-color: #d3a785;
+     border-bottom:rgb(0, 0, 0);
+     height: 55px;
+     
+  
+   
+}
+
+.nombrePagina{
+    color: white;
+    height:80%;
+    margin-top: 3px;
+}
+.columna2{
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    height:90%;
+    list-style: none;
+    color: aliceblue;
+}
+
+.columna3{
+  display: grid;
+  grid-template-columns:60% 20% 20% ;
+  height:90%;
+  list-style: none;
+  color: aliceblue;  
+}
+
+.nav-item{
+    text-align: center;
+    align-content: center;
+}
+
+.nav-item:hover{
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    background-color: #614848;  
+    font-size: 17px;
+}
+
+
+.icon{
+    height: 30px;
+    background-color:  #d3a785;
+    border-radius: 5px;
+    border-color: #42291b;
+}
+.contenedorDegradado{
+    width:100%;
+    height: 600px;
+    background-color:#1110106e;
+   
+}
+
+.saludo{
+    display: flex;
+    justify-content: center;
+    height:200px;
+   text-align: center;
+   align-content: center;
+   padding: 1em;
+  
+}
+
+.contenedorSaludo{
+    font-size: 20px;
+    color: #9b4922;
+    background-color: #e8dadac3;
+    width: 60%;
+    align-content: center;
+    padding: 1em;
+}
+
+.contenedorLista{
+    height: auto;
+    width: auto;
+    list-style: none;
+    padding: 1em;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(53, 51, 51, 0.541);
+   
+ }
+
+.contenedorItems{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #1d1a1a5d;
+    height: auto;
+    width:50%;
+    padding: 1em;
+    
+}
+
+.item{
+
+height: 60px;
+align-content: center;
+}
+
+.inputStyle{
+    color: aliceblue;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    background-color: #bb9b82;
+    border-color: #302d2c8a;
+}
+
+.inputStyle::placeholder{
+    color: aliceblue;
+}
+.inputStyle:hover{
+    color: rgb(5, 5, 5);
+    background-color:#ddbc95;
+    border-color: #b38867;
+}
+
+.inputFecha{
+    color: aliceblue;
+    padding: 1em;
+    width: 35%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #bb9b82;
+    border-color: #302d2c8a;
+
+}
+.inputFecha:hover{
+    color: rgb(5, 5, 5);
+    background-color:#ddbc95;
+    border-color: #b38867;
+}
+.inputFecha::placeholder{
+    color: aliceblue;
+}
+
+.btnStyle{
+    color:#d3a785;
+    margin-bottom: 1em;
+    background-color: #46403d;
+    border-color: #85807c;
+    border-radius: 5px;
+    height: 40px;   
+}
+.btnStyle:hover{
+    color:#22190cea;
+    background-color: #8d8683;
+    border-color: #3d3a36;
+    
+}
+
+.contenedorFondoSolicitudes{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    height: auto;
+}
+.contenedorPrincipal{
+    margin: auto;
+    background-color: #42291b;
+    height: auto;
+    width: 50%;
+}
+
+.iconFooter{
+    height: 35px;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 40%;
+    background-color: white;
+}
+.iconsContenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    height: 100%;
+    align-content: center;
+    margin-left: 2em;
+    
+    
+}
+
+.footerColumns{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    height: auto;
+    background-color:  #a37857;
+    border-color: black;
+    color: white;
+    margin-top: 1em;
+}
+
+.filas{
+    display: grid;
+    grid-template-rows: 75% 15%;
+    background-color:  #a37857;
+    border-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+.footerSections3{
+
+    display: grid;
+    grid-template-rows: 25% 75%;
+    text-align: center;
+    align-content: center;
+}
+
+.footerSection2{
+    display: grid;
+    grid-template-rows: 25% 75%;
+    text-align: center;
+    align-content: center;
+}
+
+.footerSection1{
+    display: grid;
+    grid-template-rows: 25% 75%;
+    text-align: center;
+    align-content: center;
+}
+
+.blockHover:hover{
+    background-color: none;
+    border-color: none;
+}
